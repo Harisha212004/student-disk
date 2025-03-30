@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+    Student Helper disk
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+    
+
+<header>
+<nav class="navbar">
+    <div class="navdiv">
+        
+        <i class='bx bx-menu'></i>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">     
+        </label>
+        <label class ="logo">Student Helper</label>
+        <ul class="links">
+           
+            <li><a href= "#home">Home</a></li>
+            <li><a href="#about">About</a></li> 
+             <li><a href="#contact">Contact</a></li>
+             <li><a href="#student Disk">Student Disk</a></li>  
+</ul>
+
+        
+    </div>
+    <div class="search">
+        <input type="text"  list="input" placeholder="search..">
+        <datalist id="input">
+
+            <option value="KCET">KCET</option>
+            <option value="NEET">NEET</option>
+            <option value="JEE">JEE</option>
+            <option value="UPSC">UPSC</option>
+            <option value="PGCET">PGCET</option>
+            <option value="NTSE">NTSE</option>
+            <option value="KPSC">KPSC</option>
+            <option value="data not fond">data not fond </option>     
+        </datalist>
+        <button type="submit">go</button>
+</div>
+<button class="login-btn">LOG IN</button>
+</nav>
+
+
+<div class="blur-bg-overlay"></div>
+        <div class="form-popup">
+            <span class="close-btn material-symbols-rounded">close</span>
+            <box-icon name='x-circle'></box-icon>
+            <div class="form-box login">
+                <div class="form-details">
+                    <h2>welcome back</h2>
+                    <p>please log in using ur personal information to stay updated</p>
+               
+            </div>
+                <div class="form-content">
+                    <h2>LOGIN</h2>
+                    <form action="#">
+                        <div class="input-field">
+                            <input type="text" required>
+                            <label>Email</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" required>
+                            <label>Password</label>
+                        </div>
+                        <a href="#" class="forget-pass">Forgot Password?</a>
+<button type="submit">Log In</button>
+                    </form>
+                    <div class="bottom-link">
+                        don't have an account?
+                        <a href="#" id="signup-link">Signup</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="form-box signup">
+                <div class="form-details">
+                    <h2>create account</h2>
+                    <p>please signin to get updates</p>
+               
+            </div>
+                <div class="form-content">
+                    <h2>SIGNUP</h2>
+                    <form action="#">
+                        <div class="input-field">
+                            <input type="text" required>
+                            <label> Enter ur email</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" required>
+                            <label>create Password</label>
+                        </div>
+                        <div class="policy-text">
+                            <input type="checkbox" id=""policy>
+                            <label for="policy">
+                                I agree <a href="#">Terms & conditions</a>
+                            </label>
+                        </div>
+<button type="submit">sign up</button>
+                    </form>
+                    <div class="bottom-link">
+Already have an account?                        <a href="#" id="login-link">Login</a>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<section class="home" id="home">
+    <div class="container1">
+        <div class="slide">
+        
+            <div class="item" style="background-image: url('jee.jpeg');">
+                <div class="content">
+                    <div class="name">KCET</div>
+                    <div class="des">kcet informatio..</div>
+                    <button>See More></button>
+                </div>
+            </div>
+            <div class="item" 
+            style="background-image: url('neet.jpeg');">
+                <div class="content">
+                    <div class="name">NEET</div>
+                    <div class="des">Neet informatio..</div>
+                    <button>See More</button>
+                </div>
+            </div><div class="item"
+            style="background-image: url('jee.jpeg');">
+                <div class="content">
+                    <div class="name">JEE</div>
+                    <div class="des">Jee informatio..</div>
+                    <button>See More</button>
+                </div>
+            </div>
+            
+            <div class="item"
+            style="background-image: url('neet.jpeg');">
+                <div class="content">
+                    <div class="name">KAS</div>
+                    <div class="des">Kas informatio..</div>
+                    <button>See More</button>
+                </div>
+            </div>
+                <div class="item" style="background-image: url('neet.jpeg');">
+                    <div class="name">UPSC</div>
+                    <div class="des">Upsc informatio..</div>
+                    <button>See More</button>
+                </div>
+            </div>
+            </div>
+            <div class="item"
+            style="background-image: url('ha.png.jpeg');">
+                <div class="content">
+                    <div class="name">NTSE</div>
+                    <div class="des">Ntse informatio..</div>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <div class="name">PGCET</div>
+                    <div class="des">Pgcet informatio..</div>
+                    <button>See More</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="button">
+            <button class="prev"><i class='bx bx-left-arrow-alt'>
+                    </i>
+            </button>
+            <button class="next">
+                <i class='bx bx-right-arrow-alt'></i></button>
+        </div>
+        </div>    
+</section>
+
+<section class="about" id="about">
+    <h1>about had helped so huhhrhfhyfkjfbhi uriuru</h1>
+    <p>here we jfruu tufuht iftiitn tnc
+        tiifimngvjirucxhhjedbdbdbbjjjj
+    hjjsdikdidj iiien rir reorbrirrirk</p>
+
+</section>
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>me</span></h2>
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="email">
+        </div>
+        
+                <div class="input-box">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="email subject">
+                </div>
+<textarea  cols="30" rows="10" placeholder="Ur Msg"></textarea>
+    <input type="submit" value="Send Msg" class="btn">
+    </form>
+</section>
+
+<section class="student Disk" id="student Disk">
+    <h1>about our sevices</h1>
+    <p>here we</p>
+</section>
+
+</body>
+</html>
